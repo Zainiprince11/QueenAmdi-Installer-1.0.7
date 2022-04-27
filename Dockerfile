@@ -1,4 +1,4 @@
-FROM Zainiprince11/PrinceBot:public
+FROM blackamda/queenamdi:public
 
 RUN git clone https://github.com/Zainiprince11/PrinceBot.git /root/PrinceBot
 WORKDIR /root/PrinceBot/
