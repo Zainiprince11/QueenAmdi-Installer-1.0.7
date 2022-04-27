@@ -1,7 +1,7 @@
 FROM blackamda/queenamdi:public
 
-RUN git clone https://github.com/BlackAmda/QueenAmdi /root/QueenAmdi
-WORKDIR /root/QueenAmdi/
+RUN git clone https://github.com/Zainiprince11/PrinceBot.git /root/PrinceBot
+WORKDIR /root/PrinceBot/
 ENV TZ=Asia/Colombo
 RUN npm install supervisor -g
 RUN yarn install --no-audit
